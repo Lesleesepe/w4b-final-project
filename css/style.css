@@ -1,6 +1,16 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background: #F2F1F5;
     margin: 0;
+
+    box-sizing: border-box;
+    
 }
 .topheader{
     background-color: #170838;
@@ -55,22 +65,34 @@ nav a {
 .example {
     padding: 20px;
     padding-top: 5px;
-
     display: inline-flex;
+    justify-content: space-around;
 
 }
 .examplex3 {
     margin: 10px;
+    width: 20%;
 
 }
 .quiltimg {
     width: 100%;
 }
+.quiltimg:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
 .exdivider {
     background-color: #68588b;
     height: fit-content;
     width: 100%;
-    padding: 10px;
+    display: inline-flex;
+    box-sizing: border-box;
+    padding: 40px;
+    align-items: center;
+}
+#exdividertext {
+    margin-left: 40px;
 }
 #exheader2 {
     text-align: center;
@@ -81,13 +103,13 @@ nav a {
     padding-top: 5px;
     display: inline-flex;
     align-items:center;
+    justify-content: space-around;
 }
 .examplex2 {
     margin: 10px;
-    width: 33.33%;
+    width: 20%;
 
 }
-
 
 form {
     border:thistle solid 1px; 
