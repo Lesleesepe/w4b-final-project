@@ -6,6 +6,7 @@ body{
     background-color: #170838;
     display: flex;
     justify-content: center;
+    padding: 10px;
 }
 .topheader img {
     width: 100px;
@@ -18,8 +19,9 @@ nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #170838;   
+    background: linear-gradient(rgba(23, 8, 56, 1), rgba(23, 8, 56, 0.9));  
     width: 100%;
+    overflow: auto;
 
 }
 
@@ -29,16 +31,71 @@ nav a {
     padding: 5px;
     color: #C3ACDD;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 23px;
     margin-bottom: 0;
 
 }
 .hero-image {
     background-image: linear-gradient(rgba(23, 8, 56, 0.9), rgba(23, 8, 56, 0.3)), url("../img/pincushion.jpeg");
-    height: 200px;
+    height: 300px;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative; 
+    position: absolute; 
+    display: block;
+
+}
+#exheader{
+    padding-top: 300px;
+    margin-bottom: 0;
+    text-align: center;
 }
 
+.example {
+    padding: 20px;
+    padding-top: 5px;
+
+    display: inline-flex;
+
+}
+.examplex3 {
+    margin: 10px;
+
+}
+.quiltimg {
+    width: 100%;
+}
+.exdivider {
+    background-color: #68588b;
+    height: fit-content;
+    width: 100%;
+    padding: 10px;
+}
+#exheader2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.example2 {
+    padding: 20px;
+    padding-top: 5px;
+    display: inline-flex;
+    align-items:center;
+}
+.examplex2 {
+    margin: 10px;
+    width: 33.33%;
+
+}
+
+
+form {
+    border:thistle solid 1px; 
+    padding: 10px;
+
+}
+.form {
+    background-color:#C3ACDD;
+    padding: 5px;
+    
+}
