@@ -21,7 +21,6 @@ body{
 .topheader img {
     width: 100px;
 }
-
 nav {
     display: flex;
     flex-direction: row;
@@ -32,9 +31,7 @@ nav {
     background: linear-gradient(rgba(23, 8, 56, 1), rgba(23, 8, 56, 0.9));  
     width: 100%;
     overflow: auto;
-
 }
-
 nav a {
     /* border-left: 1px solid rgb(243, 209, 252); */
     display: block;
@@ -43,7 +40,9 @@ nav a {
     text-decoration: none;
     font-size: 23px;
     margin-bottom: 0;
-
+}
+nav a:hover{
+    opacity: .7;
 }
 .hero-image {
     background-image: linear-gradient(rgba(23, 8, 56, 0.9), rgba(23, 8, 56, 0.3)), url("../img/pincushion.jpeg");
@@ -146,3 +145,36 @@ form {
     background-color:#C3ACDD;
     padding: 5px;
 }
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(rgba(23, 8, 56, 1), rgba(23, 8, 56, 0.8));  
+    width: 100%;
+    overflow: auto;
+
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+        color: white;
+  }
+  .fa-youtube {
+    color: white;
+  }
+  .fa-pinterest {
+    color: white;
+  }
