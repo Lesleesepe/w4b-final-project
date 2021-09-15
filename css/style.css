@@ -110,6 +110,7 @@ nav a:hover{
 }
 #exheader2 {
     text-align: center;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 .example2 {
@@ -153,6 +154,7 @@ nav a:hover{
     display: inline-flex;
     align-items:center;
     justify-content: space-around;
+    margin-top: 30px;
 }
 .learn3col {
     margin: 10px;
