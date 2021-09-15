@@ -19,7 +19,7 @@ body{
     padding: 10px;
 }
 .topheader img {
-    width: 100px;
+    height: 150px
 }
 nav {
     display: flex;
@@ -46,7 +46,7 @@ nav a:hover{
 }
 .hero-image {
     background-image: linear-gradient(rgba(23, 8, 56, 0.9), rgba(23, 8, 56, 0.3)), url("../img/pincushion.jpeg");
-    height: 300px;
+    height: 350px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,7 +55,7 @@ nav a:hover{
     display: block;
 } 
 #exheader{
-    padding-top: 300px;
+    padding-top: 370px;
     margin-bottom: 0;
     text-align: center;
 }
@@ -137,13 +137,51 @@ nav a:hover{
     margin: 10px;
     width: 20%;
 }
-form {
-    border:thistle solid 1px; 
-    padding: 10px;
+#contactmain {
+    display: flex;
+    display: inline-flex;
 }
+
 .form {
-    background-color:#C3ACDD;
-    padding: 5px;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.forminput {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.forminput input, textarea {
+    width: 300px;
+}
+.forminput textarea {
+    height: 200px;
+}
+input[type=text], select, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    resize: vertical;
+  }
+  input[type=email], select, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    resize: vertical;
+  }
+.map {
+    box-sizing: border-box;
+    margin-right: 200px;
 }
 .footer {
     display: flex;
@@ -165,7 +203,12 @@ form {
     text-decoration: none;
     margin: 5px 2px;
   }
-  
+  .footerfollow {
+      color: #C3ACDD;
+      text-align: center;
+      padding-top: 30px;
+    
+  }
   .fa:hover {
       opacity: 0.7;
   }
@@ -174,6 +217,7 @@ form {
   }
   .fa-youtube {
     color: white;
+    padding-right: 35px;
   }
   .fa-pinterest {
     color: white;
