@@ -5,12 +5,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+* {
+    font-family: 'Glory', sans-serif;
+}
 body{
     background: #F2F1F5;
     margin: 0;
-
     box-sizing: border-box;
-    
+    color: #170838;
+}
+p{
+    font-size: 18px;
 }
 .topheader{
     background-color: #170838;
@@ -38,7 +43,7 @@ nav a {
     padding: 5px;
     color: #C3ACDD;
     text-decoration: none;
-    font-size: 23px;
+    font-size: 28px;
     margin-bottom: 0;
 }
 nav a:hover{
@@ -54,9 +59,16 @@ nav a:hover{
     position: absolute; 
     display: block;
 } 
+.hero-text {
+    width: 33.33%;
+    margin:7%;
+    text-align: center;
+    color: #c9b6df;
+    font-size: 22px;
+}
 #exheader{
-    padding-top: 370px;
-    margin-bottom: 0;
+    padding-top: 380px;
+    margin-bottom: 20px;
     text-align: center;
 }
 .example {
@@ -69,6 +81,9 @@ nav a:hover{
 .examplex3 {
     margin: 10px;
     width: 20%;
+}
+.examplex3 p {
+    margin-bottom: 20px;
 }
 .quiltimg {
     width: 100%;
@@ -115,7 +130,10 @@ nav a:hover{
     display: inline-flex;
     box-sizing: border-box;
     padding: 40px;
+    padding-right: 100px;
+    padding-left: 100px;
     align-items: center;
+
 }
 .learn2 {
     background-color: #a192a7;
@@ -124,7 +142,10 @@ nav a:hover{
     display: inline-flex;
     box-sizing: border-box;
     padding: 40px;
+    padding-right: 100px;
+    padding-left: 100px;
     align-items: center;
+
 }
 .learn3 {
     padding: 20px;
